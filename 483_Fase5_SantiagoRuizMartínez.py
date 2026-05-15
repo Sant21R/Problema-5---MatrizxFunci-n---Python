@@ -3,17 +3,14 @@
 # Programa: Ingenieria de Sistemas
 # Código fuente: Autoría propia
 
-# Crear una matriz con 4 recursos y horas trabajadas por día (valores numéricos). 
-
 horasxdia = [
-    ["Docente", 6, 6, 6, 7 , 6], # 6 horas semanales cada docente. Nota: Los docentes dan una hora de más los días jueves"
-    ["Secretaria", 7, 7, 7, 7, 7], # 7 horas semanales cada secretaria. 
-    ["Aseadoras", 8, 8, 9, 9 ,9], # 8 horas semanales cada aseadora. Nota: Las aseadoras trabajan una hora más los días miércoles, jueves y viernes.
-    ["Celador", 10, 10, 10, 10, 11] # 10 horas semanales cada celador. Nota: El celador trabaja una hora más el día viernes para asegurar la seguridad del colegio durante el fin de semana.
+    ["Docente", 6, 6, 6, 7 , 6], 
+    ["Secretaria", 7, 7, 7, 7, 7], 
+    ["Aseadoras", 8, 8, 9, 9 ,9], 
+    ["Celador", 10, 10, 10, 10, 11] 
 ]
 
 umbral = 40
-# Se requiere un módulo (función) para calcular la suma total de horas semanales por recurso y clasificar su jornada. 
 
 def cal_horas(horasxdia):
     umbral = 40
